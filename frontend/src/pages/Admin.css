@@ -1,0 +1,44 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #A5DD9B, #51829B);
+}
+
+.admin-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.admin-page h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.logout-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #f12711, #f5af19);
+}
